@@ -25,6 +25,16 @@ nav {
     border-right: 1px solid #ddd;
 }
 
+nav a {
+    display: block;
+    padding: 0.4rem 0;
+    color: var(--text);
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: var(--accent);
+}
 main {
     margin-left: var(--menu-width);
     max-width: 800px;
